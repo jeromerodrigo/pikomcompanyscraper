@@ -1,0 +1,17 @@
+{
+  "name": "pikomcompanyscraper",
+  "version": "1.0.0",
+  "description": "Scrapes company info from pikom",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jerome Rodrigo <jeromerodrigo@gmail.com>",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "axios-retry": "^3.1.1",
+    "jsdom": "^11.12.0",
+    "json2csv": "^4.2.1"
+  }
+}
